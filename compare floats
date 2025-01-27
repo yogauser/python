@@ -1,0 +1,5 @@
+def compare_floats(a: float, b: float) -> bool:
+    return round(a, 3) == round(b, 3)
+num1 = 3.14159
+num2 = 3.14149
+print(compare_floats(num1, num2))  
